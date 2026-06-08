@@ -10,41 +10,27 @@ public class Main {
        int fechadelanzamientolibro = 2024;
        double preciolibro = 1.9;
         System.out.println( "Libro: " +  nombrelibro +  " (" + fechadelanzamientolibro + ") - " + preciolibro  + "€/día");
-       //Declaramos una variable String para guardar el nombre del libro.
-        //Declaramos una variable int para la fecha de lanzamiento.
-        //Declaramos una variable double para el precio por día.
-        //Finalmente, usamos System.out.println() para mostrar toda la información del libro en una sola línea.
+       
 
         //INFORMACIÓN PELÍCULA
         String  nombrepelicula = "Ojo por ojo";
         int fechadelanzamientopelicula = 1996;
         double preciopelicula = 3.5;
         System.out.println( "Película:" + nombrepelicula + " (" + fechadelanzamientopelicula + " ) - " + preciopelicula + "€/día");
-        //Declaramos una variable String para guardar el nombre de la película.
-        //Declaramos una variable int para la fecha de lanzamiento.
-        //Declaramos una variable double para el precio por día.
-        //Finalmente, usamos System.out.println() para mostrar toda la información de la película en una sola línea.
+       
 
         //INFORMACIÓN VIDEOJUEGOS
         String nombrevideojuego = "Fortnite";
         int fechadelanzamientojuego = 2017;
         double preciovideojuego = 6.2 ;
         System.out.println( "Videojuego:" + nombrevideojuego + " (" + fechadelanzamientojuego + " ) - " + preciovideojuego + " €/día");
-        //Declaramos una variable String para guardar el nombre del videojuegos.
-        //Declaramos una variable int para la fecha de lanzamiento.
-        //Declaramos una variable double para el precio por día.
-        //Finalmente, usamos System.out.println() para mostrar toda la información del videojuegos en una sola línea.
-
+        
         //INFORMACIÓN ALBÚN DE MÚSICA
         String nombremusica = "Metal";
         int fechalanzamientomusica = 1998;
         double preciomusica = 2.01;
         System.out.println( "Música:" + nombremusica + " (" + fechalanzamientomusica + " ) -" + preciomusica + " €/día");
-        //Declaramos una variable String para guardar el albúm de música.
-        //Declaramos una variable int para la fecha de lanzamiento.
-        //Declaramos una variable double para el precio por día.
-        //Finalmente, usamos System.out.println() para mostrar toda la información del albúm de música en una sola línea.
-
+       
         //ACTIVIDAD 2
         double preciolibro1 = 1.9;
         double preciopelicula1 = 3.5;
@@ -60,14 +46,9 @@ public class Main {
         double ingresosmusica = preciomusica1 * cantidadmusica;
         double ingresostotales = ingresoslibros + ingresospelicula + ingresosjuegos + ingresosmusica;
         System.out.println( "Ingresos totales: " + ingresostotales + "€");
-        //Declaramos variables tipo double para guardar el precio por día de cada tipo de producto (libros, películas, videojuegos y música).
-        //Declaramos variables tipo int para guardar la cantidad de unidades alquiladas de cada tipo de producto.
-        //Calculamos los ingresos individuales de cada categoría multiplicando el precio por unidad por la cantidad de unidades.
-        //Sumamos todos los ingresos individuales para obtener los ingresos totales.
-        //Mostramos en pantalla el resultado final (los ingresos totales) junto con el símbolo de euro.
+       
 
         //ACTIVIDAD 3
-        //DESCUENTO DE LIBROS
         double preciolibro2 = 3.5;
         int cantidadlibros2 = 6;
         double porcentajedescuentolibro = 10.0;
@@ -79,13 +60,9 @@ public class Main {
         System.out.println( "Subtotales: " + preciototalsindesclibro);
         System.out.println( "Descuento:" + porcentajedescuentolibro);
         System.out.println( "Total:" + valorcondesclibro);
-     //Declaramos las variables: Guardamos los datos del libro (nombre, precio, cantidad, descuento).
-     //Cálculo del subtotal: Multiplicamos el precio unitario por la cantidad.
-     //Cálculo del descuento: Conviertimos el porcentaje a decimal y lo multiplicas por el subtotal.
-     //Cálculo del total final: Restamos el descuento al subtotal.
-     //Imprimimos los resultados: Muestra toda la información
+     
 
-        //DESCUENTO DE PELICULAS
+    
         double preciopelicula2 = 1.9;
         int cantidadpelicula2 = 8;
         double porcentajedescuentopelicula = 10.0;
@@ -98,7 +75,7 @@ public class Main {
         System.out.println( "Descuento:" + porcentajedescuentopelicula);
         System.out.println( "Total:" + valorcondescpelicula);
 
-        //DESCUENTO JUEGOS
+      
         double preciojuego2 = 6.2;
         int cantidadjuego1 = 13;
         double porcentajedescuentojuego = 10;
@@ -120,11 +97,7 @@ public class Main {
         int articulostotales = 4;
         double  preciomedio = sumadepreciostotales / articulostotales;
         System.out.println( "Precio totales: " + preciomedio);
-        //Guardamos los precios de los cuatro artículos: un libro, una película, un juego y música.
-     //Sumamos todos esos precios para obtener el total.
-     // Contamos cuántos artículos hay (4).
-     //Dividemos el total entre el número de artículos para calcular el precio medio.
-     // Mostramos el resultado en pantalla.
+    
 
         //ACTIVIDAD 5
         int  cantidadlibros4 =6 ;
@@ -140,11 +113,7 @@ public class Main {
         System.out.println( "Libros: " + porcentajelibro);
         System.out.println( "Películas: " + porcentajejuego);
         System.out.println( "Música: " + porcentajemusica);
-     //Guardamos las cantidades de cada tipo de artículos:
-     //Sumamos todas las cantidades para obtener el total de artículos:
-     //Calculamos el porcentaje que representa cada tipo respecto al total.
-     //Muestramos los resultados en la consola:
-
+    
 
 
 
